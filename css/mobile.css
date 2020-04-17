@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .products{
+        display:inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .margin_section{
+        padding: 4%;
+    }
+
+    .section_level-1,
+    .container_level-2 {
+        display: inherit;
+    }
+    
+    .item,
+    .item-2 {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .item,
+    .item-2 {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item,
+    .item-2 {
+        margin-left: 13%;
+    }
+}

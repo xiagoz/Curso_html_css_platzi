@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Fiesta de Gifs</title>
+    <style>
+        body{
+            background: black;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-style: italic;
+            margin: 0;
+        }
+        header {
+            display:flex;
+            margin:0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            color: white;
+            background: #93CA3D;
+            justify-content: center;
+            margin-bottom: 5px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5px;
+        }
+        .item{
+            grid-template-rows: repeat(auto-fill, 1fr);
+            justify-items: center;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid #93CA3D;
+        }
+        .level-1 {
+           text-align: start;
+           padding-left: 65px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Fiesta de Gifs</h2>
+    </header>
+    <div class="container">
+
+        <div class="item">
+            <p>Cuando el profesor escribe muy rápido</p>
+            <p class="level-1">Yo: </p>
+            <img src="https://media2.giphy.com/media/XIqCQx02E1U9W/200.webp?cid=ecf05e47fca9c81577d2cbc72a7220722bdf0f211039a9b0&rid=200.webp"  width="260px" height="200">
+        </div>
+            
+        <div class="item">
+            <p>Cuando me sale la practica del Profesor</p>
+            <img src="https://media1.giphy.com/media/eoxomXXVL2S0E/200.webp?cid=ecf05e47fca9c81577d2cbc72a7220722bdf0f211039a9b0&rid=200.webp">
+        </div>
+
+        <div class="item">
+            <p>Cuando Platzi añade más cursos</p>
+            <img src="https://media1.giphy.com/media/b9aScKLxdv0Y0/200.webp?cid=ecf05e47bb4e9e3cc0f3e774b7f24f37a261687e2461a5bd&rid=200.webp">
+        </div>
+
+        <div class="item">
+            <p>Cuando aprendo algo nuevo</p>
+            <img src="https://media2.giphy.com/media/KrLqtbe8PGEDe/200.webp?cid=ecf05e47b5e3476c3c4f99490a34c297dab2ebaad089bbb2&rid=200.webp">
+        </div>
+
+        <div class="item level-5">
+            <p>Un gato perreando =)</p>
+            <img src="https://media0.giphy.com/media/FFwmZf7Soj2LK/giphy.webp?cid=ecf05e47c6e629df77bc6ab7b7726517d9653d0c25f6af16&rid=giphy.webp" width="260px" height="200">
+        </div>
+
+        <div class="item">
+            <p>Cuando paso un curso de Platzi</p>
+            <img src="https://media1.giphy.com/media/ehc19YLR4Ptbq/200.webp?cid=ecf05e47c6e629df77bc6ab7b7726517d9653d0c25f6af16&rid=200.webp">
+        </div>
+    </div> 
+</body>
+</html>
